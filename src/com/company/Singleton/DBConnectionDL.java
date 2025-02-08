@@ -13,7 +13,9 @@ public class DBConnectionDL {
         // otherwise if our object is already initialized we don't have to acquire lock
         if (dbConnectionDL == null) {
             synchronized (DBConnectionDL.class) {
-                dbConnectionDL = new DBConnectionDL();
+                if (dbConnectionDL == null) {
+                    dbConnectionDL = new DBConnectionDL();
+                }
             }
         }
         return dbConnectionDL;
