@@ -1,5 +1,6 @@
 package com.company;
 
+import com.company.AbstractFactory.AbstractFactoryMain;
 import com.company.Factory.FactoryMain;
 import com.company.Prototype.PrototypeMain;
 import com.company.Singleton.SingletonMain;
@@ -10,6 +11,7 @@ public class Main {
 	// write your code here
 //        PrototypeMain.run();
 //        SingletonMain.run();
-        FactoryMain.run();
+//        FactoryMain.run();
+        AbstractFactoryMain.run();
     }
 }
