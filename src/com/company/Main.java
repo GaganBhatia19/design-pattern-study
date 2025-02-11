@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.AbstractFactory.AbstractFactoryMain;
 import com.company.Builder.BuilderMain;
+import com.company.Decorator.DecoratorMain;
 import com.company.Factory.FactoryMain;
 import com.company.Prototype.PrototypeMain;
 import com.company.Singleton.SingletonMain;
@@ -14,6 +15,7 @@ public class Main {
 //        SingletonMain.run();
 //        FactoryMain.run();
 //        AbstractFactoryMain.run();
-        BuilderMain.run();
+//        BuilderMain.run();
+        DecoratorMain.run();
     }
 }
