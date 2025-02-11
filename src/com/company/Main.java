@@ -5,6 +5,7 @@ import com.company.Builder.BuilderMain;
 import com.company.Decorator.DecoratorMain;
 import com.company.Factory.FactoryMain;
 import com.company.Prototype.PrototypeMain;
+import com.company.Proxy.ProxyMain;
 import com.company.Singleton.SingletonMain;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
 //        FactoryMain.run();
 //        AbstractFactoryMain.run();
 //        BuilderMain.run();
-        DecoratorMain.run();
+//        DecoratorMain.run();
+        ProxyMain.run();
     }
 }
